@@ -1,0 +1,395 @@
+<html>
+    <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&family=Rowdies:wght@300&display=swap" rel="stylesheet">
+        <link href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body id="body">
+
+     
+
+     
+      <style>
+         #background-image4 {
+          background-image: url("enviornment.png");
+            background-repeat: no-repeat;
+            background-size:contain;
+          height: 100vh;
+            width: 100%;
+            z-index: 0;
+            position: absolute;
+        }
+        .info4 {
+          width: 100%;
+          height: 100vh;
+         background-color: white;
+         text-align: center;
+         scroll-snap-align: start;
+         overflow: hidden;
+        }
+       
+        #background-image3 {
+          background-image: url("noaa2.jpg");
+            background-repeat: no-repeat;
+            background-size:contain;
+          height: 95vh;
+            width: 100%;
+            z-index: 0;
+            position: absolute;
+        }
+        #h1 {
+          font-size: 50px;
+        }
+.nav{
+    
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    
+}
+.nav li{
+    display:inline;
+    
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+    text-decoration: none;
+    color: white;
+}       
+
+
+      </style>
+
+      
+      
+
+       
+    
+        
+        <!-- Slideshow container -->
+
+       
+        <style>
+          #pContain {
+            height: 180px;
+            width: 500px;
+          }
+          .containerParagraph2 {
+            position: relative;
+          }
+          #background-image2 {
+            background-image: url("noaa.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+          height: 95vh;
+            width: 100%;
+            z-index: 0;
+            position: absolute;
+          }
+          .containerParagraph {
+            position: relative;
+          }
+          .backgroundImage {
+            background-image: url("background1.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+          height: 95vh;
+            width: 100%;
+            z-index: 1;
+            position: absolute;
+            
+          }
+          #info2p {
+            font-size: 10px;
+          }
+           .info3 {
+          width: 100%;
+          height: 100vh;
+         background-color: white;
+         text-align: center;
+         scroll-snap-align: start;
+         overflow: hidden;
+}
+          .info2 {
+          width: 100%;
+          height: 100vh;
+         background-color:#3eb7f7;
+         text-align: center;
+         scroll-snap-align: start;
+}
+          #body {
+            background-color: black;
+          }
+          #h1 {
+            color: white;
+            font-family: Rowdies;
+
+          }
+          #image {
+            height: 357;
+            width: 500;
+            background-image: url("bus.png");
+            margin-left: 1200px;
+            margin-top: 150px;
+          
+          }
+          #section2 {
+            font-family: Rowdies;
+              font-size: 50px;
+            z-index: 3;
+              margin-left: 0;
+              height: 20px;
+              
+              
+          }
+          .container {
+            scroll-snap-type:  y mandatory;
+            overflow-y: scroll;
+            height: 100vh;
+          }
+         .section3 {
+          font-family: Rowdies;
+              font-size: 20px;
+            height: 100vh;
+              margin-left: 0;
+              scroll-snap-align: start;
+             
+         }
+            
+        </style>
+       <div class="container">
+         <section class="section3">
+          <h1 style="text-align: center;" id="h1">Our Ocean</h1>
+
+          <ul class="nav">
+            <li><a href="index (1).html">Home</a></li>
+            <li><a href="game.html">Game</a></li>
+            <li><a href="sources.html">Links & Sources</a></li>
+            <li><a href="facts.html">facts</a></li>
+
+          </ul>
+          <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="bus.png" style="width:100%">
+              <div class="text"></div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="shark.jpg" style="width:100%">
+              <div class="text"></div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="coral.jpg" style="width:100%">
+              <div class="text"></div>
+            </div>
+          
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          
+          <!-- The dots/circles -->
+          
+                  
+                  <style>
+                    * {box-sizing:border-box}
+          
+          /* Slideshow container */
+          .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+          }
+          
+          /* Hide the images by default */
+          .mySlides {
+            display: none;
+          }
+          
+          /* Next & previous buttons */
+          .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -22px;
+            padding: 16px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+          }
+          
+          /* Position the "next button" to the right */
+          .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+          }
+          
+          /* On hover, add a black background color with a little bit see-through */
+          .prev:hover, .next:hover {
+            background-color: rgba(0,0,0,0.8);
+          }
+          
+          /* Caption text */
+          .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+          }
+          
+          /* Number text (1/3 etc) */
+          .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+          }
+          
+          /* The dots/bullets/indicators */
+          .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+          }
+          
+          .active, .dot:hover {
+            background-color: #717171;
+          }
+          
+          /* Fading animation */
+          .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+          }
+          
+          @-webkit-keyframes fade {
+            from {opacity: .4}
+            to {opacity: 1}
+          }
+          
+          @keyframes fade {
+            from {opacity: .4}
+            to {opacity: 1}
+          }
+                  </style>
+                  <script>
+                    var slideIndex = 1;
+          showSlides(slideIndex);
+          
+          // Next/previous controls
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+          
+          // Thumbnail image controls
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+          
+          function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+          }
+          
+          
+                  </script>
+           </section>
+        <section class="info2">
+          <p style= "color: black;" id="section2" >Why should we care about the ocean?</p>
+          
+          <div class="containerParagraph">
+            <div class="backgroundImage"></div>
+          <p style=" margin-left: 30px; margin-top: 50px; font-size: 30px; z-index: 1; position: absolute;" id="paragraph1; "> Why should we care about the ocean? Well, one reason is that it regulates the climate for us humans. It also provides us with a food source and transportation. The ocean regulates climate by distributing heat around the globe and sucking in Co2. It provides us with fish, a carbon efficient food source, which millions of people depend on every day. That means if you're killing the ocean, you're also starving the same millions of people who depend on fish as a food source. The oceans allow us to travel places we can’t get by walking or driving with much less carbon footprint than an airplane. The ocean provides a life source for us humans on earth, providing us with many necessary resources and transportation, which is why we should care about it and protect it.</p>
+            </div>
+            
+              
+
+        </section>
+        <section class="info3">
+          <p style= "color: black; font-family: Rowdies; font-size: 50px; height: 15px;" id="section3">The Ocean is in Trouble</p>
+          <div class="containerParagraph2">
+          <p style="position: absolute; z-index: 1; margin-left: 0px; font-size: 20px;">A problem currently facing the ocean is climate change. Climate change is also in turn causing ocean acidification and sea level rise. Climate change is being caused by humans burning fossil fuels which releases Co2 into the air. This is causing the oceans pH levels to have risen by 0.1 pH in a matter of years. This is causing coral reefs, a habitat for thousands of species, to die because of the new ph levels. Climate change is also causing the sea level to rise, and this could flood large coastal cities like San Francisco and Miami which would in turn destroy millions of homes. This is a big problem currently facing the ocean and we need to take action now! Click <a href="https://asean.usmission.gov/innovasean_20150615/">here</a> to learn about the effects of plastic on the ocean
+
+          </p>
+            
+              <div id="background-image2">
+                  
+              </div>
+              </div>
+            
+
+        </section>
+        <section class="info3">
+          <p style= "color: black; font-family: Rowdies; font-size: 50px; height: 15px;" id="section3">What NOAA Does to Help</p>
+          <div class="containerParagraph2">
+            <div id="pContain">
+          <p style="position: absolute; z-index: 1; margin-left: 0px; font-size: 20px;">	<a href="https://www.noaa.gov/">NOAA</a> stands for National Oceanic and Atmospheric Administration, and it researches the ocean and the atmosphere and protects them. Watersheds are an area of land where drains all the streams and rainfall drain to a common outlet such as the outflow of a reservoir, mouth of a bay, or any point along a stream. There are big watersheds like the Mississippi River Watershed, or a small watershed like a tiny stream that drains into a small pond. Our local watershed is the <a href="https://acfloodcontrol.org/the-work-we-do/resources/san-leandro-creek-watershed/">San Leandro Creek Watershed.</a> Our <a href="https://sanctuaries.noaa.gov/">National Marine Sanctuaries</a>  are basically underwater national parks that NOAA manages. There are 15 total National Marine Sanctuaries, 2 Marine National Monuments, and 2 proposed National Marine Sanctuaries. Our local National Marine Sanctuary is the Greater Farallones. 
+          </div>
+
+          </p>
+            
+              <div id="background-image3">
+                  
+              </div>
+              </div>
+            
+
+        </section>
+        <section class="info4">
+          <p style= "color: black; font-family: Rowdies; font-size: 50px; height: 15px;" id="section3">How You Can Help</p>
+          <div class="containerParagraph2">
+            <div id="pContain">
+          <p style="position: absolute; z-index: 1; margin-left: 0px; font-size: 20px;"> There are many ways to help clean our oceans but an excellent way is by cutting down on plastics. Some great ways to do this are replacing thin plastic bags with paper bags or reusable bags. Another exceptional thing you can do is making sure that trash goes into the right bin. If you want to make a bigger input on cleaning our oceans you can even participate in beach clean ups. There are always other things that you can do. Too see them, click <a href="https://oceanservice.noaa.gov/ocean/earthday.html">here</a> 
+          </div>
+
+          </p>
+            
+              <div id="background-image4">
+                  
+              </div>
+              </div>
+            
+
+        </section>
+        </div>
+    </body>
+    
+</html>
